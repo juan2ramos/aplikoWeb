@@ -6,46 +6,384 @@
 */
 
 
-
 a{
     text-decoration: none
 }
 body{
-    background: #ecedef;
-    font-family: 'Lato', sans-serif;
+    background: #fff;
+    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 16px;
 }
-h1{
-    color: #ba585b;
-    font-size: 3.8em;
-    font-style: italic;
-    font-weight: 900;
-    margin: 0
+section{
+    text-align: center;
 }
-
-h2{    
-    
-    color: #4d555a;
-    display: inline-block;
-    overflow: hidden;
-    width: 100%;
-    white-space: nowrap;
+section{
+    min-width: 100%;
+    border-bottom:2px solid #e3e6e9;
 }
-
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none
+}
 /*=================================================================
 header
 ===================================================================*/
-header, section{
+header{
+    background: #f2f2f2 url('../images/background-header.jpg') center 295px no-repeat;
+    border-bottom: 5px solid #e90026;
+    min-width: 100%;
+}
+header h2{
+    font-family: 'Lobster', cursive;
+    margin: 0;
+}
+#header{
     margin: 0 auto;
+    position: relative;
     width: 960px;
 }
+#social{
+    padding: 55px 0 35px;
+    text-align: right;
+}
+#social ul, #social li,#social h2{
+    display: inline-block;
+    vertical-align: middle;   
+}
+#banner{
+    margin: 27px auto 0;
+    width: 703px;    
+}
+.flex-control-nav {
+    display: none;
+}
+.flex-direction-nav{
+
+}
+.flex-direction-nav li{
+    display: inline-block;
+    vertical-align: top;
+    
+}
+.slider{
+    width: 695px;
+} 
+.flex-next, .flex-prev{
+    display: inline-block;
+    height: 58px;
+    margin-bottom: 5px;
+    margin-top: 35px;
+    position: relative;
+    text-indent: -2000px;
+    vertical-align: top;
+    width: 58px;
+    z-index: 1000
+
+}
+.flex-prev{
+    background: url('../images/btn-izq.png');
+    margin-left: 10px;
+}
+.flex-next{
+    background: url('../images/btn-der.png');
+    margin-left: 560px;
+
+}
+.flex-next:hover, .flex-prev:hover{
+    background-position: 0 -56px;
+}
+
 /*=================================================================
 nav
 ===================================================================*/
+#nav{
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 0%, #eeeeee 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#eeeeee 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 0%,#eeeeee 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 0%,#eeeeee 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffffff 0%,#eeeeee 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
 
-/* ==========================================================================
-   Media Queries Desktop
-   ========================================================================== */
+    position: relative;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 7px #444;
+    text-align: right;
+
+}
+#nav figure{
+    left: 23px; 
+    position: absolute;
+    top: -65px;   
+}
+#nav figure img{
+    max-width: 198px;   
+}
+#nav li{
+    border-right: 2px solid rgb(236, 236, 236);
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 20px;
+    vertical-align: top;
+    
+}
+#nav li:last-child{
+    border-right: none
+    
+}
+#nav li a{
+    color: #282423;
+    font-weight: bold;
+    word-spacing: -2px;
+    
+}
+#nav ul{
+    
+}
+#entities-contend-head{
+    text-align: center;   
+}
+#entities-contend-head li{
+    display: inline-block;
+    margin: 15px -8px;
+    vertical-align: middle;
+    
+}
+#members{
+    bottom: -183px;
+    left: 173px;
+    position: absolute;
+
+}
+#members li{
+    display: inline-block;
+    margin-right: 12px;
+    vertical-align: middle;
+
+}
+#members li:nth-child(3){
+    margin: 0 6px 0 -13px;
+}
+/*==========================================================================
+entities-contend
+========================================================================== */
+#entities-contend{
+    margin: 128px auto 0;
+    position: relative;
+    width: 960px;
+    z-index: 1000
+}
+#lens {
+    box-sizing: border-box;
+    padding: 100px 55px;
+    text-align: left;
+}
+#contend-article, #lens {
+    display: inline-block;  
+    vertical-align: top;
+    width: 49%;
+}
+#contend-article article{
+    text-align: left;
+}
+#contend-article article figure{
+    margin-bottom: 35px;
+    margin-left: -230px;
+
+}
+#contend-article article p{
+    color: rgb(107, 107, 107);
+    font-size: 1.3em;
+    font-weight: 600;
+    text-align: left;
+
+}
+.button{
+    background: #037cc7;
+    box-shadow: 2px 2px 3px rgb(148, 148, 148);
+    color: white;
+    display: block;
+    font-size: 1.4em;
+    font-weight: 600;
+    margin: 13px 0;    width: 101px;
+    padding: 6px 25px;
+}
+#contend-article article .second{
+    margin-top: 60px;
+    margin-bottom: 20px;    
+}
+/*==========================================================================
+about-apliko
+========================================================================== */
+#about article{
+    margin: 0 auto;
+    width: 960px;
+}
+.about-apliko{
+    margin: 35px 0 8px 0;
+}
+.infografia{
+    box-sizing: border-box;    
+    display: inline-block;
+    padding-right: 50px;
+    text-align: right;
+    vertical-align: top;
+    width: 49%;
+    
+}
+.infografia p{
+    color: #878889;
+    padding-left: 55px;
+    text-align: justify;
+    width: 360px;
+
+}
+#do{
+    background: url('../images/esto_hacemos.svg') no-repeat;
+}
+#do-first ol{
+    margin: 0 45px 0 65px;
+    text-align: left;
+}
+#do ol h2{
+    color:#056fb1;
+    font-size: 1rem;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+
+#do-first ol, #do-first figure{
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+}
+#do-first ol p{
+    margin: 0 0 45px 0;
+    width: 210px;
+}
+#do-this{
+    margin: 100px 0 60px;     
+}
+
+#do-second figure, #do-second ol{
+    display: inline-block;
+    vertical-align: top;
+    width: 49%
+}
+#do-second ol{
+    background: url('../images/engranajecierre.svg') center bottom no-repeat; 
+    padding: 45px 0 90px;
+    text-align: left;
+
+}
+#do-second ol p{
+    margin-bottom: 80px;
+    width: 360px;
+}
+#apps{ 
+}
+#apps h2{
+    font-family: 'Lobster', cursive;  
+    color: #e90026;
+    margin: -10px 0 30px;
+}
+.apps {
+    display: inline-block;
+    vertical-align: top;
+    width: 43%;
+}
+.apps h3{
+    text-align: left;
+}
+.apps p{
+    text-align: left;
+}
+/*==========================================================================
+people
+========================================================================== */
+#people {
+
+    margin: 110px auto;
+    width: 960px;
+}
+#people p{
+
+  font-size: 1.2em
+}
+#people article, #people > figure{
+    display: inline-block;
+    vertical-align: top;
+    width: 42%;
+} 
+#people article h2{
+    color: rgb(141, 141, 141);
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+    margin: 0;
+    width: 400px;
+
+}
+#people article a{
+    margin: 50px 20px;
+    width: 200px
+}
+#people article h4{
+    color: #037cc7;
+    margin: 0;    
+}
+
+#people article p,#people article h2, #people article h4{
+    text-align: left;
+    padding-left: 20px;
+}
+.margin{
+    margin-top: 0
+}
+#people .gray{
+    background: rgb(219, 219, 219);
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 15px 45px;
+    width: 50%;
+
+}
+#people .gray p{
+    text-align: justify;
+    padding-left: 0
+}
+.padding{
+    padding-top: 90px;
+}
+#people .bottom{
+    vertical-align: bottom;
+}
+#footer-people{
+    margin-top: 10px
+}
+#footer-people a, #footer-people figure{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%
+}
+#footer-people a{
+
+    font-size: .95em;   
+    width: 200px;
+}
+#footer-people figure{
+    text-align: right;
+    width: 70%;
+}
+/*==========================================================================
+Media Queries Desktop
+========================================================================== */
 
 @media (min-width:1224px) {
 

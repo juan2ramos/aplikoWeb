@@ -19,7 +19,9 @@
         <script src="js/prefixfree.min.js"></script>
         <!-- Estilos -->
         <link rel="stylesheet" href="css/normalize.css" />
-        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
         <link rel="stylesheet" href="css/style.css" />
 
 
@@ -28,213 +30,241 @@
     </head>
     <body>
         <header>
-            <div id="social">
-                <h2>Fabricamos apps para smartphones, tablets y computadores</h2>
-                <ul>
-                    <li>f</li>
-                    <li>t</li>
-                    <li>y</li>
-                </ul>
+            <div id="header">
+                <div id="social">
+                    <h2>Fabricamos apps para smartphones, tablets y computadores</h2    >
+                    <ul>
+                        <li>f</li>
+                        <li>t</li>
+                        <li>y</li>
+                    </ul>
+                </div>
+                <nav id="nav">
+                    <figure>
+                        <img src="images/logo-apliko.png" alt="logo-apliko">
+                    </figure>
+                    <ul>
+                        <li><a href="#">esto es apliko</a></li>
+                        <li><a href="#">esto hacemos</a></li>
+                        <li><a href="#">nuestras apps</a></li>
+                        <li><a href="#">trabaje con nosotros</a></li>
+                        <li><a href="#">contáctenos</a></li>
+                    </ul>
+                </nav>
+                <div id="entities-contend-head">
+                    <ul>
+                        <li><img src="images/flecha_izq_indicador.svg"></li>
+                        <li>
+                            <a href="">
+                                <img src="images/Bot_Sobre_Personas.png">
+                            </a>                            
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/Bot_Sobre_Empresas.png">
+                            </a>
+                        </li>
+                        <li><img src="images/flecha_der_indicador.svg"></li>
+                    </ul>
+                </div>
+                <div id="banner">
+                    <div class="slider slider-reservas" id="">
+                        <ul class="slides">
+                       
+                            <li>
+                                <img src="images/Banner01.svg">
+                            </li>
+                            <li>
+                                <img src="images/Banner02.svg">
+                            </li>
+                            <li>
+                                <img src="images/Banner03.svg">
+                            </li>
+                                              
+                      </ul>
+                </div>
+                </div>
+                <div id="members">
+                    <ul>
+                        <li><img src="images/google_play.png"></li>
+                        <li><img src="images/appstore.svg"></li>
+                        <li><img src="images/USB_Cable.svg"></li>
+                        <li><img src="images/alliance_logo_color.svg"></li>
+                        <li><img src="images/vive_digital_colombia.svg"></li>
+                    </ul>
+                </div>
             </div>
-            <nav class="">
-                <figure>
-                    <img src="images" alt="logo-apliko">
-                </figure>
-                <ul>
-                    <li><a href="#"></a></li><!--
-                 --><li><a href="#"></a></li><!--
-                 --><li><a href="#"></a></li><!--
-                 --><li><a href="#"></a></li>
-                </ul>
-            </nav>
-            <div id="entities-contend-head">
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-            <div id="banner">
-                
-            </div>
-            <div id="members">
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-
         </header>
-        <section id="entities-contend">
+        <section >
+            <div id="entities-contend">
+                <figure id="lens">
+                    <img src="images/lupa.svg" alt="lupa">
+                </figure>
+                <div id="contend-article">
+                    <article>
+                        <figure>
+                            <img src="images/titulo_personas.svg" alt="aplico para personas">
+                        </figure>
+                         <p>¿Tienes una buena idea para crear una app?</p>
+                         <p>¿Sabes de alguna oportunidad de negocio con apps?</p>
+                         <p>¿Quisieras invertir en el mercado de las apps?</p>
+                         <p>Apliko lo hace por ti.</p>
+                         <a class="button" href="">Conoce más</a>
 
-            <figure id="lens">
-                <img src="" alt="">
-            </figure>
-            <div id="contend-article">
-                <article>
-                    <figure>
-                        <img src="" alt="aplico para personas">
-                    </figure>
-                     <p></p>
-                     <p></p>
-                     <p></p>
-                     <p></p>
-                     <a href="">Conoce más</a>
-                     
-                </article>
-                <article>
-                    <figure>
-                        <img src="" alt="aplico para empresas">
-                    </figure>
-                     <p></p>
-                     <p></p>
-                     <p></p>
-                     <a href="">Conoce más</a>
-                     
-                </article>
-    
+
+                    </article>
+                    <article>
+                        <figure class="second">
+                            <img src="images/titulo_empresas.svg" alt="aplico para empresas">
+                        </figure>
+                         <p>¿Su empresa necesita una app?</p>
+                         <p>¿Quisiera usar la tecnología móvil en su empresa?</p>
+                         <p>Apliko es la solución</p>
+                         <a class="button" href="">Conoce más</a>
+                         
+                    </article>
+        
+                </div>
             </div>
         </section>
         <section id="about">
             <article>
-                <figure>
-                    <img src="" alt="esto es aplico">
+                <figure class="about-apliko">
+                    <img src="images/estoesaplikotitulo.svg" alt="esto es aplico">
                     
                 </figure>
-                <figure>
-                    <img src="" alt="infograma apliko">
+                <figure class="infografia">
+                    <img src="images/infograma.svg" alt="infograma apliko">
                 </figure>
+                <div class="infografia">
+                    <p>Apliko es una fábrica que se especializa en crear aplicaciones (apps) para ser usadas en smartphones, tablets y computadores.</p>
+                    <p>Es una fábrica porque allí se materializan las ideas de las personas y de las empresas, para convertirlas en apps disponibles en los mercados.</p>
+                    <p>Apliko no es solo desarrollo de apps, es CREACION de apps. Asesoramos, diseñamos, estructuramos, desarrollamos y comercializamos las aplicaciones.</p>
+                    <p>Apliko integra una larga historia de experiencia de más de 10 años, creando y desarrollando soluciones para usuarios de telefonía móvil. El equipo de Apliko ha participado en la evolución tecnológica de los dispositivos móviles, creando soluciones a través de sistemas de audio respuesta (IVR), de mensajería de texto (SMS), de WAP, de software en Java y ahora a través de Apps para smartphones y tablets. Nuestro equipo de trabajo está conformado por Ingenieros expertos en tecnología y diseño de soluciones móviles, Diseñadores Gráficos expertos en diagramación y usabilidad web, Programadores de software expertos en desarrollo de apps, Ejecutivos expertos en desarrollo de negocios y mercadeo digital, y Gerentes de Proyectos expertos en gestión y desarrollo.</p>
+                    <p>Aplico nace con el propósito de integrar a la comunidad donde personas, empresas y desarrolladores de software, tienen la oportunidad de particpar activamente en la creación, uso y ganancia de apps.</p>
+                </div>
             </article>
-            <article>
+            <article id="do">
                 
-                <figure>
-                    <img src="" alt="Esto hacemos">
+                <figure id="do-this">
+                    <img src="images/tituloestohacemos.svg" alt="Esto hacemos">
                 </figure>
                 <div id="do-first">
                     <ol>
                         <li>
-                            <h2>asesoramos</h2>
-                            <p></p>
-                            <figure>
-                                <img src="" alt="Asesoramos">
-                            </figure>
+
+                            <h2>1. asesoramos</h2>
+                            <p>Tomamos la idea de la persona o la necesidad de la empresa y proyectamos la app técnica, funcional y económicamente.</p>
                         </li>
                         <li>
-                            <h2>diseñamos uso</h2>
-                            <p></p>
-                            <figure>
-                                <img src="" alt="Uso">
-                            </figure>
+                            <h2>2. diseñamos uso</h2>
+                            <p>Estructuramos su funcionalidad, planeamos la arquitectura de navegación y aplicamos técnicas de usabilidad.</p>
                         </li>
                         <li>
-                            <h2>diseñamos apariecia</h2>
-                            <p></p>
-                            <figure>
-                                <img src="" alt="Apariencia">
-                            </figure>
+                            <h2>3. diseñamos apariecia</h2>
+                            <p>Creamos todos los componentes gráficos entorno a la app de tal forma que sea agradable y amigable.</p>
                         </li>
                         
                     </ol>
+                    <figure>
+                        <img src="images/pictos_ascensor.svg" alt="">
+                    </figure>
                 </div>
                 <div id="do-second">
+                    <figure>
+                        <img src="images/pictos_ascensor2.svg" alt="">
+                    </figure>
                     <ol>
                         <li>
-                            <figure>
-                                <img src="" alt="Desarrollamos">
-                            </figure>
-                            <h2>desarrollamos</h2>
-                            <p></p>
+                            <h2>4. desarrollamos</h2>
+                            <p>Programamos el software y creamos las conexiones a bases de datos o a información de terceros.</p>
                         </li>
                         <li>
-                            <figure>
-                                <img src="" alt="Activamos">
-                            </figure>
-                            <h2>activamos</h2>
-                            <p></p>
+                            <h2>5. activamos</h2>
+                            <p>Realizamos pruebas de calidad y activamos la app en los respectivos stores para que pueda ser descargada por el público en general.</p>
                         </li>
                         <li>
-                            <figure>
-                                <img src="" alt="Promocionamos">
-                            </figure>
-                            <h2>promocionamos</h2>
-                            <p></p>
+                            <h2>6. Promocionamos</h2>
+                            <p>Diseñamos e implementamos el plan de promoción y mercadeo que requiera la app.</p>
                         </li>
                         <li>
-                            <figure>
-                                <img src="" alt="Gestionamos">
-                            </figure>
-                            <h2>gestionamos</h2>
-                            <p></p>
+                            <h2>7. gestionamos</h2>
+                            <p>Administramos la descargas, uso y actuaización de la app, para recomendar e implemetar mejoras.</p>
                         </li>
                         
                     </ol>
                 </div>
             </article>
-            <article>
+            <article id="apps">
                 <h2>Creamos 2 clases de apps</h2>
                 <div class="apps">
                     <h3>Apps Nativas</h3>
-                    <p></p>
+                    <p>Tomamos la idea de la persona o la necesidad de la empresa y proyectamos la app técnica, funcional y económicamente.</p>
                     <figure>
-                        <img src="" alt="">
-                        <img src="" alt="">
+                        <img src="images/google_play.png" alt="">
+                        <img src="images/appstore.svg" alt="">
                     </figure>
                 </div>
                 <div class="apps">
                     <h3>Web Apps</h3>
-                    <p></p>
+                    <p>Tomamos la idea de la persona o la necesidad de la empresa y proyectamos la app técnica, funcional y económicamente.</p>
                     <figure>
-                        <img src="" alt="">
+                        <img src="images/Webapp.svg" alt="">
                     </figure>
                 </div>
             </article>
         </section>  
         <section id="our-apps">
-            
+            <figure>
+                <img src="images/titulonuestrasapps.svg" alt="nuestras apps">
+                <figcaption></figcaption>
+            </figure>
         </section> 
-        <section id="people">
-            <figure>
-                <img src="" alt="para personas">
-            </figure>
-            <article>
-                
-                <h2>Comparte tus ideas y gana con nosotros</h2>
-                <p></p>
-                <h4>Así funciona:</h4>
-                <p></p>
-                <p></p>
-                <a href="">
-                    <span>Presenta tu idea aquí</span>
-                </a>
+        <section>
+            <div id="people">
+                <article>
+                    <figure>
+                        <img src="images/tituloparapersonas.svg" alt="para personas">
+                    </figure>
+                    <h2>Compartenos<br> tus ideas y gana dinero con nosotros</h2>
+                    <p>en apliko queremos escuchar tus ideas , queremos convertilas en apps y queremos compartirte las utilidades que estas generen.</p>
+                    <h4>Así funciona:</h4>
+                    <p class="margin">si tienes una idea de app y quisieras verla en el mercado,o si tienes una oportunidad de negocio,compartelas con nosotros.</p>
+                    <p>En Apliko nos encargamos de evaluar tu idea con la mayor confidencialidad y profesionalismo, lo unico que debes hacer es enviarnos una breve descripcion y potencial que le hayas visto.</p>
+                    <a class="button" href="">
+                        <span>Presenta tu idea aquí</span>
+                    </a>
 
-            </article>
-            <figure>
-                <img src="" alt="idea">
-            </figure>
-            <figure>
-                <img src="" alt="conoce el proceso  ">
-            </figure>
-            <article>
-                <p></p>
-            </article>
-            <div>
-                <a href="">
-                    <span>Conoce el proceso completo aquí</span>
-                </a>
-                <figure>
-                    <img src="" alt=" ">
+                </article>
+                <figure class="padding">
+                    <img src="images/elcerebrito.svg" alt="idea">
                 </figure>
+                <figure class="bottom">
+                    <img src="images/mancitoipad.svg" alt="conoce el proceso  ">
+                </figure>
+                <article class="gray">
+                    <p>En Apliko nos encargamos de evaluar tu idea con la mayor confidencialidad y profesionalismo, lo unico que debes hacer es enviarnos una breve descripcion y potencial </p>
+                    <p>En Apliko nos encargamos de evaluar tu idea con la mayor confidencialidad y profesionalismo, lo unico que debes hacer es enviarnos una breve descripcion y potencial </p>
+                    <p>En Apliko nos encargamos de evaluar tu idea con la mayor confidencialidad y profesionalismo, lo unico que debes hacer es enviarnos una breve descripcion y potencial </p>
+                    <p>En Apliko nos encargamos de evaluar tu idea con la mayor confidencialidad y profesionalismo, lo unico que debes hacer es enviarnos una breve descripcion y potencial </p>
+                
+                </article>
+                <div id="footer-people">
+                    <a class="button" href="">
+                        <span>Conoce el proceso completo aquí</span>
+                    </a>
+                    <figure>
+                        <img src="images/cierre.svg" alt=" ">
+                    </figure>
+                </div>
             </div>
         </section>
         <section id="company">
             <figure>
-                <img src="" alt="Para empresas">
+                <img src="images/tituloparaempresas.svg" alt="Para empresas">
             </figure>
             <p></p>
-            <param name="" value="">
+            <p></p>
         </section>
 
     </body>
@@ -242,5 +272,6 @@
        
     <!-- JavaScript -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
     <script src="js/script.js"></script>
 </html>
