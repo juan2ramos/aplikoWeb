@@ -31,36 +31,60 @@
     <body>
         <header>
             <div id="header">
-                <div id="social">
-                    <h2>Fabricamos apps para smartphones, tablets y computadores</h2    >
-                    <ul>
-                        <li>f</li>
-                        <li>t</li>
-                        <li>y</li>
-                    </ul>
+                <div id="contend-nav">
+                    <div id="social">
+                        <h2>Fabricamos apps para smartphones, tablets y computadores</h2>
+                        <ul>
+                            <li>f</li>
+                            <li>t</li>
+                            <li>y</li>
+                        </ul>
+                    </div>
+                    <nav id="nav">
+                        <figure>
+                            <a class="links" href="#" data-menu="header"><img src="images/logo-apliko.png" alt="logo-apliko"></a>
+                        </figure>
+                        <ul>
+                            <li>
+                                <a class="links" href="#" id="about-link" data-menu="about">
+                                    esto es apliko
+                                </a>
+                            </li>
+                            <li>
+                                <a class="links" href="#" id="do-link" data-menu="do">
+                                    esto hacemos
+                                </a>
+                            </li>
+                            <li>
+                                <a class="links" href="#" id="our-apps-link" data-menu="our-apps">
+                                    nuestras apps
+                                </a>
+                            </li>
+                            <li class="hidden" >
+                                <a class="links" href="#" id="people-link" data-menu="people">   
+                                    para personas
+                                </a>
+                            </li>
+                            <li class="hidden" >
+                                <a class="links" href="#" id="company-link" data-menu="company">  
+                                    para empresas
+                                </a>    
+                            </li>
+                            <li><a href="#" >trabaje con nosotros</a></li>
+                            <li><a href="#" >contáctenos</a></li>
+                        </ul>
+                    </nav>
                 </div>
-                <nav id="nav">
-                    <figure>
-                        <img src="images/logo-apliko.png" alt="logo-apliko">
-                    </figure>
-                    <ul>
-                        <li><a href="#">esto es apliko</a></li>
-                        <li><a href="#">esto hacemos</a></li>
-                        <li><a href="#">nuestras apps</a></li>
-                        <li><a href="#">trabaje con nosotros</a></li>
-                        <li><a href="#">contáctenos</a></li>
-                    </ul>
-                </nav>
                 <div id="entities-contend-head">
                     <ul>
                         <li><img src="images/flecha_izq_indicador.svg"></li>
                         <li>
-                            <a href="">
+                            <a class="links" href="#" data-menu="people-home">
                                 <img src="images/Bot_Sobre_Personas.png">
                             </a>                            
                         </li>
                         <li>
-                            <a href="">
+                            <a class="links" href="#" data-menu="company-home">
                                 <img src="images/Bot_Sobre_Empresas.png">
                             </a>
                         </li>
@@ -101,7 +125,7 @@
                     <img src="images/lupa.svg" alt="lupa">
                 </figure>
                 <div id="contend-article">
-                    <article>
+                    <article id="people-home"> 
                         <figure>
                             <img src="images/titulo_personas.svg" alt="aplico para personas">
                         </figure>
@@ -113,7 +137,7 @@
 
 
                     </article>
-                    <article>
+                    <article id="company-home">
                         <figure class="second">
                             <img src="images/titulo_empresas.svg" alt="aplico para empresas">
                         </figure>
@@ -127,8 +151,8 @@
                 </div>
             </div>
         </section>
-        <section id="about">
-            <article>
+        <section  >
+            <article id="about" class="section">
                 <figure class="about-apliko">
                     <img src="images/estoesaplikotitulo.svg" alt="esto es aplico">
                     
@@ -144,7 +168,7 @@
                     <p>Aplico nace con el propósito de integrar a la comunidad donde personas, empresas y desarrolladores de software, tienen la oportunidad de particpar activamente en la creación, uso y ganancia de apps.</p>
                 </div>
             </article>
-            <article id="do">
+            <article id="do" class="section">
                 
                 <figure id="do-this">
                     <img src="images/tituloestohacemos.svg" alt="Esto hacemos">
@@ -214,14 +238,14 @@
                 </div>
             </article>
         </section>  
-        <section id="our-apps">
+        <section id="our-apps"  class="section">
             <figure>
                 <img src="images/titulonuestrasapps.svg" alt="nuestras apps">
                 <figcaption></figcaption>
             </figure>
         </section> 
         <section>
-            <div id="people">
+            <div id="people"  class="section">
                 <article>
                     <figure>
                         <img src="images/tituloparapersonas.svg" alt="para personas">
@@ -259,7 +283,7 @@
                 </div>
             </div>
         </section>
-        <section id="company">
+        <section id="company"  class="section">
             <figure>
                 <img src="images/tituloparaempresas.svg" alt="Para empresas">
             </figure>

@@ -245,6 +245,8 @@ about-apliko
 }
 #do{
     background: url('../images/esto_hacemos.svg') no-repeat;
+    margin: auto;
+    width: 944px;
 }
 #do-first ol{
     margin: 0 45px 0 65px;
@@ -380,6 +382,72 @@ people
 #footer-people figure{
     text-align: right;
     width: 70%;
+}
+/*==========================================================================
+state
+========================================================================== */
+.fixed #contend-nav{
+    position :fixed;
+}
+
+.fixed #entities-contend{
+    margin :318px auto 0;
+}
+.fixed #header{
+    width :100%;
+}
+.fixed #contend-nav {
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 0%, #eeeeee 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#eeeeee 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 0%,#eeeeee 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 0%,#eeeeee 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffffff 0%,#eeeeee 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+
+
+    border-radius: 0;
+    box-shadow: 0px 4px 7px #444;
+    text-align: right;
+    position: fixed;
+    z-index: 10000;
+    width: 100%;
+}
+.fixed #nav {
+    background: none;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0 auto; 
+    width: 960px
+}
+.fixed #nav li {
+    border: none;
+    display: inline-block;
+    font-size: .95rem;
+    padding: 20px 7px;
+}
+.fixed #social{
+    margin: 0 auto;
+    padding: 35px 0 35px;
+    width: 960px
+}
+
+.fixed #social h2{
+    color: gray;
+}
+.fixed #nav figure img {
+    max-width: 150px;
+}
+.fixed  #nav figure {
+    top: -90px;
+}
+#nav .hidden{
+    display: none
+}
+#nav li a.current{
+    color:#e90026 ;
 }
 /*==========================================================================
 Media Queries Desktop
